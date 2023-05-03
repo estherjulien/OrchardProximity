@@ -21,7 +21,7 @@ To run real networks:
 ```bash
 python leaf_distance_milp.py -real=1 -s
 ```
-where `-s` is seed.
+where `s` is the instance number.
 To run simulated networks, the number of leaves (`l`) and the number of reticulations (`r`) have to be indicated:
 ```bash
 python leaf_distance_milp.py -real=0 -l -r -s
