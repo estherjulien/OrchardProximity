@@ -137,13 +137,6 @@ def make_zods(l, retic, seed):
 def make_network_from_el_simulated(inst_num, l, retic):
     net_info = f"L{l}_R{retic}_ZODS"
     file = f"simulatedNetworks/n{inst_num}_{net_info}.el"
-    # TODO: DELETE
-    # if not os.path.exists(file):
-    #     print(f"JOB {inst_num} (L{l}, R{retic}): GENERATE NETWORK")
-    #     net_generated = make_zods(l, retic, inst_num)
-    #     if not net_generated:
-    #         return False
-
     # open edges file
     with open(file, "r") as handle:
         edges_file = handle.readlines()
