@@ -1,5 +1,5 @@
 # Code for the paper:
-> **Proximity measures for orchard networks**  
+> **Making a Network Orchard by Adding Leaves**  
 > *Leo van Iersel, Mark Jones, Esther Julien, Yukihiro Murakami*
 
 To run the code, the following packages have to be installed: `networkx`, `numpy`, and `PySCIPOpt`. 
